@@ -9,7 +9,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   new_array = []
   src.each do |array_i|
-    new_array << "I love #{array_i[0]} and #{array_i[1]} on my pizza."
+    new_array << "I love #{array_i[0]} and #{array_i[1]} on my pizza"
     # binding.pry
   end
   return new_array
