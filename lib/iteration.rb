@@ -12,7 +12,7 @@ def join_ingredients(src)
     new_array << "I love #{array_i[0]} and #{array_i[1]} on my pizza."
     # binding.pry
   end
-  puts return new_array
+  return new_array
 end
 
 def find_greater_pair(src)
